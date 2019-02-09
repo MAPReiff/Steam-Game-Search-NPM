@@ -1,4 +1,4 @@
-# Weather
+# Steam Seacrher
 
 [![NPM][npm-image]][npm-url]
 
@@ -17,7 +17,7 @@ var steam = require('steam-searcher')
 
 steam.find({ search: 'Hitman 2' }, function (err, game) {
     if (err) console.log(err);
-    //game is the data as aJSON.
+    //game is the data as a JSON.
     console.log(game.name)  
 });
 ```
