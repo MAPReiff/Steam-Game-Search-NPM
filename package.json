@@ -1,0 +1,28 @@
+{
+  "name": "steam-searcher",
+  "version": "1.0.0",
+  "description": "Searches Steam for Game Info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAPReiff/Steam-Game-Search-NPM.git"
+  },
+  "keywords": [
+    "steam",
+    "search",
+    "games",
+    "api"
+  ],
+  "author": "MAPReiff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MAPReiff/Steam-Game-Search-NPM/issues"
+  },
+  "homepage": "https://github.com/MAPReiff/Steam-Game-Search-NPM#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
