@@ -1,4 +1,4 @@
-# Steam Seacrher
+# Steam Searcher
 
 [![NPM][npm-image]][npm-url]
 
