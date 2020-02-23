@@ -34,8 +34,12 @@ module.exports = (function () {
 
             // Parse body
 
-            var res1 = JSON.parse(body),
-                steamID = res1.items[0].id,
+            var res1 = JSON.parse(body)
+            if(res1.total == 0) {
+                return callback(new Error('No results found'));
+            }
+
+            var steamID = res1.items[0].id,
                 reqUrl2 = `http://store.steampowered.com/api/appdetails?appids=${steamID}`
 
             request.get({
